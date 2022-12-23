@@ -2,7 +2,7 @@ import { Strategy as LocalStrategy } from 'passport-local'
 import { validPassword } from '../lib/passwordUtils.js'
 import User from '../models/user.model.js'
 
-export const passportConfig = passport => {
+export const passportConfig = (passport) => {
   passport.use(new LocalStrategy(
     { usernameField: 'username', passwordField: 'password' },
     (username, password, done) => {
