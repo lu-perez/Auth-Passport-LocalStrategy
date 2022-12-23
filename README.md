@@ -6,7 +6,7 @@ git clone https://github.com/lu-perez/Auth-passport-local-strategy.git
 ```
 
 2. Install dependencies
-```
+```console
 npm install
 ```
 
